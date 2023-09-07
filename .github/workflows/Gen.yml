@@ -39,7 +39,7 @@ jobs:
         run: |
           mkdir out
           cd out
-          cp 
+          cp recovery.img .
           python3 -m twrpdtgen -o ./out/ *.img
           
       - name: ZIP device tree
